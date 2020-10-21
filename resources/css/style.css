@@ -1,0 +1,53 @@
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Lemonada', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: orange;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight:100;
+    background-color: #fff;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;  
+    text-rendering: optimizeLegibility;
+}
+h1{
+    color:#ccc;
+    font-family:'Lemonada', cursive;
+    font-size: 180%;
+    font-weight: 300;
+}
+/*------------BASIC SETUP CSS---------------------------------------------------*/
+.row{
+    max-width: 1140px;
+    margin: auto;    
+}
+section{
+    padding: 80px 0;
+}
+/*------------BASIC SETUP CSS---------------------------------------------------*/
+.btn {
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 200px;
+    padding: 3px 25px;
+    text-transform: uppercase;
+    font-family:'Lemonada', cursive;
+}
+
+.main-heading {
+    
+}
+
+.main-head-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
