@@ -21,6 +21,7 @@ h1{
     color:#ccc;
     font-family:'Lemonada', cursive;
     font-size: 180%;
+    text-transform: uppercase;
     font-weight: 300;
 }
 /*------------BASIC SETUP CSS---------------------------------------------------*/
@@ -34,16 +35,15 @@ section{
 /*------------BASIC SETUP CSS---------------------------------------------------*/
 .btn {
     text-decoration: none;
-    border: 1px solid orange;
+    border: 2px solid #f59f01;
     border-radius: 200px;
     padding: 3px 25px;
     text-transform: uppercase;
-    font-family:'Lemonada', cursive;
+    font-family:'Lemonada', cursive;   
 }
 
-.main-heading {
-    
-}
+
+
 
 .main-head-content {
     position: absolute;
@@ -51,3 +51,56 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.main-heading {
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.7)),url(img/bc2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navs {
+    float: right;
+    list-style: none;
+    padding-top:20px;
+}
+.navs li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Lemonada', cursive;
+}
+.navs li a:hover,
+.navs li a:active{
+    border-bottom:2px solid orange;
+}
+
+.navs li{
+    display: inline-block;
+    margin-left: 40px;
+    font-weight:300;
+}
+
+.logo {
+    float: left;
+    width: 130px;
+}
+
+.btn-full:link, 
+.btn-full:visited {
+color: aliceblue;
+background-color: darkgoldenrod;
+border: 2px solid darkgoldenrod;
+}
+.btn-full:hover, 
+.btn-full:active{
+background-color: transparent;
+color: darkgoldenrod; 
+}
+
+.btn-empty:link, 
+.btn-empty:visited{
+    color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+}
+
