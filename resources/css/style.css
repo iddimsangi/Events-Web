@@ -34,6 +34,7 @@ h2{
 h3{
     font-size:90%;
     margin-left: 15px;
+    color: darkgoldenrod;
 }
 h2:after{
     content: "";
@@ -149,4 +150,48 @@ color: darkgoldenrod;
     height: 80px;
     margin-top:15px;
     margin-left:60px;
+}
+
+.third-sec {
+    background-color:#e2e2e2;
+}
+
+.first-dv img {
+    width:75%;
+    height: auto;
+    float: right;
+    padding-right:20px;
+}
+
+.first-dv {
+    padding-top:20px;
+}
+
+.second-dv {
+    padding-top:60px;
+}
+
+.list-dv {
+   display: block; 
+    margin-bottom: 45px;
+}
+.list-dv div{
+    display: block;
+    border: 2px solid darkgoldenrod;
+    padding: 2px;
+    float: left;
+    border-radius:50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 140%;
+    margin-right: 20px;
+   
+}
+.list-dv p{
+   line-height: 120%;
+   font-family: 'Lemonada', cursive;
+   font-size:75%;
+   vertical-align: middle;
+   margin-top:10px;
 }
