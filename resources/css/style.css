@@ -17,12 +17,32 @@ body{
     letter-spacing: 1px;  
     text-rendering: optimizeLegibility;
 }
-h1{
-    color:#ccc;
+h1,h2,h3{
     font-family:'Lemonada', cursive;
-    font-size: 180%;
     text-transform: uppercase;
     font-weight: 300;
+}
+h1{
+   color:#ccc;
+  font-size: 180%;   
+}
+h2{
+    color: darkgoldenrod;
+    font-size:145%;
+    text-align: center;
+}
+h3{
+    font-size:90%;
+    margin-left: 15px;
+}
+h2:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    margin-top:5px;
 }
 /*------------BASIC SETUP CSS---------------------------------------------------*/
 .row{
@@ -41,9 +61,6 @@ section{
     text-transform: uppercase;
     font-family:'Lemonada', cursive;   
 }
-
-
-
 
 .main-head-content {
     position: absolute;
@@ -69,6 +86,7 @@ section{
     text-decoration: none;
     color: aliceblue;
     font-family:'Lemonada', cursive;
+    transition:border-bottom 0.35s;
 }
 .navs li a:hover,
 .navs li a:active{
@@ -91,6 +109,7 @@ section{
 color: aliceblue;
 background-color: darkgoldenrod;
 border: 2px solid darkgoldenrod;
+transition:background-color 0.35s;
 }
 .btn-full:hover, 
 .btn-full:active{
@@ -104,3 +123,30 @@ color: darkgoldenrod;
     border: 2px solid darkgoldenrod;
 }
 
+
+.p-content {
+    font-family: 'Inter', sans-serif; 
+    font-size: 80%;
+    line-height:120%;
+    width: 70%;
+    margin-left:15%;
+    word-spacing: 0.5px;
+    margin-top: 10px;
+    color: #272727;
+}
+
+.common-txt {
+    font-size: 80%;
+    line-height: 120%;
+    text-align: justify;
+    word-spacing: 0.5px;
+    letter-spacing: normal;
+}
+
+.bg-fv {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-top:15px;
+    margin-left:60px;
+}
